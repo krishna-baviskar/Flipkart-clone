@@ -5,7 +5,7 @@ const products: Product[] = [
     id: "1",
     name: "QuantumCore Laptop Pro",
     description: "Experience unparalleled performance with the QuantumCore Laptop Pro. Featuring the latest generation processor, a stunning 4K display, and a sleek, lightweight design, it's the perfect tool for professionals and creatives alike. With all-day battery life, you can work from anywhere without compromise.",
-    price: 124999.00,
+    price: 94990.00,
     rating: 4.8,
     image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format=fit=crop",
     category: "Electronics",
@@ -237,6 +237,83 @@ const products: Product[] = [
     ],
     seller: "LumiBeauty",
   },
+  {
+    id: "13",
+    name: "Classic Crew-Neck T-Shirt",
+    description: "A timeless staple for any wardrobe. This classic crew-neck t-shirt is made from 100% premium cotton for a soft and comfortable feel. Perfect for layering or wearing on its own.",
+    price: 799.00,
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1980&auto=format=fit=crop",
+    category: "Fashion",
+    specifications: {
+      "Material": "100% Cotton",
+      "Fit": "Regular",
+      "Sleeves": "Short Sleeve",
+      "Neck": "Crew-Neck"
+    },
+    reviews: [
+        { id: "r13-1", author: "Jessica P.", rating: 5, comment: "Super soft and fits perfectly. I bought it in three colors!" }
+    ],
+    seller: "UrbanWear"
+  },
+  {
+    id: "14",
+    name: "Men's Slim-Fit Jeans",
+    description: "Look sharp and feel comfortable in these modern slim-fit jeans. Made with a hint of stretch for all-day comfort and a full range of motion. A versatile addition to your casual wardrobe.",
+    price: 1899.00,
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1602293589914-9b299af288dc?q=80&w=1887&auto=format=fit=crop",
+    category: "Fashion",
+    specifications: {
+      "Material": "98% Cotton, 2% Elastane",
+      "Fit": "Slim",
+      "Rise": "Mid-Rise",
+      "Care": "Machine Wash"
+    },
+    reviews: [
+        { id: "r14-1", author: "Daniel K.", rating: 5, comment: "Great fit and very comfortable. They look more expensive than they are." }
+    ],
+    seller: "DenimCo"
+  },
+  {
+    id: "15",
+    name: "Nebula Smartphone X1",
+    description: "Discover the future of mobile with the Nebula Smartphone X1. It features a stunning edge-to-edge display, a pro-grade camera system, and lightning-fast 5G capabilities, all powered by the next-gen Nebula chipset.",
+    price: 64999.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1780&auto=format=fit=crop",
+    category: "Mobiles",
+    specifications: {
+      "Display": "6.7\" Dynamic AMOLED 2X",
+      "Camera": "108MP Wide, 12MP Ultrawide, 10MP Telephoto",
+      "Processor": "Nebula Fusion A17",
+      "Battery": "5000mAh",
+      "Storage": "256GB"
+    },
+    reviews: [
+        { id: "r15-1", author: "Sophia T.", rating: 5, comment: "The camera on this phone is absolutely breathtaking. And it's so fast!" }
+    ],
+    seller: "StellarTech"
+  },
+  {
+    id: "16",
+    name: "The Midnight Library",
+    description: "A novel by Matt Haig, The Midnight Library is a captivating story about life, death, and the choices we make. It's a heartwarming and thought-provoking read that will stay with you long after you finish.",
+    price: 349.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1543002588-b9b6562934c2?q=80&w=1974&auto=format=fit=crop",
+    category: "Books",
+    specifications: {
+      "Author": "Matt Haig",
+      "Genre": "Fantasy Fiction",
+      "Pages": "304",
+      "Binding": "Paperback"
+    },
+    reviews: [
+        { id: "r16-1", author: "Bookworm22", rating: 5, comment: "One of the best books I've read this year. So imaginative and beautiful." }
+    ],
+    seller: "PageTurners"
+  }
 ];
 
 export function getProducts(): Product[] {
