@@ -7,7 +7,7 @@ const products: Product[] = [
     description: "Experience unparalleled performance with the QuantumCore Laptop Pro. Featuring the latest generation processor, a stunning 4K display, and a sleek, lightweight design, it's the perfect tool for professionals and creatives alike. With all-day battery life, you can work from anywhere without compromise.",
     price: 149999.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format=fit=crop",
     category: "Electronics",
     specifications: {
       "Processor": "16-Core QuantumFusion",
@@ -49,7 +49,7 @@ const products: Product[] = [
     description: "Upgrade your sleep with the Eco-Comfort Memory Foam Mattress. Made from sustainable, plant-based materials, this mattress provides optimal support and pressure relief. The breathable cover keeps you cool all night long. Comes with a 100-night trial.",
     price: 7990.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070&auto=format=fit=crop",
     category: "Home & Furniture",
     specifications: {
       "Size": "Queen",
@@ -128,7 +128,7 @@ const products: Product[] = [
     description: "Grow fresh herbs year-round with the SmartGarden Indoor Herb Kit. This self-watering, automated LED-lit system makes it easy for anyone to have a green thumb. Includes a starter kit with basil, mint, and parsley seeds.",
     price: 8999.00,
     rating: 4.5,
-    image: "https://images.unsplash.com/photo-1594269806334-d13c5836a463?q=80&w=1974&auto=format&fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/hair-treatment/i/z/p/400-amla-reetha-shikakai-bhringraj-hibiscus-brahmi-henna-and-original-imagh59vgumpvhcw.jpeg?q=70",
     category: "Home & Garden",
     specifications: {
       "Capacity": "3 pods",
@@ -147,7 +147,7 @@ const products: Product[] = [
     description: "Find your flow with the FlexiFit Yoga Mat Pro. Made with non-toxic, eco-friendly materials, it provides superior grip and cushioning. The alignment lines help you perfect your poses. Lightweight and easy to carry.",
     price: 7900.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2120&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2120&auto=format=fit=crop",
     category: "Fitness",
     specifications: {
       "Material": "Eco-friendly TPE",
