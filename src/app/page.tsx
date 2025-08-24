@@ -13,8 +13,9 @@ export default function Home() {
       <div className="container mx-auto px-4 py-4">
         <Banner />
       </div>
-      <div className="container mx-auto px-4 py-8">
-        <ProductList products={products} />
+      <div className="container mx-auto px-4 py-8 space-y-8">
+        <ProductList products={products} title="Deals of the Day"/>
+        <ProductList products={[...products].reverse()} title="Top Picks" />
       </div>
     </div>
   );

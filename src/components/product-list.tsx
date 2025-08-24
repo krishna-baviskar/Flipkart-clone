@@ -22,9 +22,10 @@ import {
 
 interface ProductListProps {
   products: Product[];
+  title?: string;
 }
 
-export function ProductList({ products }: ProductListProps) {
+export function ProductList({ products, title = "Deals of the Day" }: ProductListProps) {
   const searchParams = useSearchParams();
 
   const filteredAndSortedProducts = useMemo(() => {
@@ -63,7 +64,7 @@ export function ProductList({ products }: ProductListProps) {
   return (
     <Card>
       <CardHeader className="flex flex-row items-center justify-between">
-        <CardTitle>Deals of the Day</CardTitle>
+        <CardTitle>{title}</CardTitle>
         <Button variant="default">
           View All
           <ArrowRight className="ml-2 h-4 w-4" />
