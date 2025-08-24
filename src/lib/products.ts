@@ -29,7 +29,7 @@ const products: Product[] = [
     description: "Immerse yourself in crystal-clear audio with AuraSound Wireless Earbuds. Featuring active noise cancellation, a comfortable ergonomic fit, and seamless Bluetooth 5.3 connectivity. Enjoy up to 30 hours of playtime with the compact charging case.",
     price: 12999.00,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1590691518884-24a6894a3a30?q=80&w=1974&auto=format&fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/k/k/r/-original-imaha9pgxwpfewtb.jpeg?q=70",
     category: "Electronics",
     specifications: {
       "Connectivity": "Bluetooth 5.3",
