@@ -18,6 +18,7 @@ const bannerImages = [
     { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/84ae27f93c14a4e3.jpg?q=80", alt: "Banner 5", hint: "travel booking" },
     { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/0bde3c3e8825a173.jpeg?q=80", alt: "Banner 6", hint: "grocery deals" },
     { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/2f933017cefe86ac.jpeg?q=80", alt: "Banner 7", hint: "special offer" },
+    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/5b309e98775e22e4.jpg?q=80", alt: "Banner 8", hint: "new offer" },
 ]
 
 export function Banner() {
