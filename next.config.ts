@@ -27,6 +27,12 @@ const nextConfig: NextConfig = {
         hostname: 'rukminim2.flixcart.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.fkcdn.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
