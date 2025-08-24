@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Search, ShoppingCart, User, MoreVertical, Store, ChevronDown, Heart } from "lucide-react";
+import { Search, ShoppingCart, User, MoreVertical, Store, ChevronDown, Heart, Package } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/hooks/use-cart";
 import { Logo } from "./logo";
@@ -64,9 +64,19 @@ export function Header() {
                   <Link href="/wishlist">
                     <Heart className="mr-2 h-4 w-4" />
                     Wishlist
+                    {wishlistItems.length > 0 && (
+                        <span className="ml-auto text-xs bg-accent text-accent-foreground rounded-full px-2">
+                            {wishlistItems.length}
+                        </span>
+                    )}
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem>Orders</DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link href="/orders">
+                    <Package className="mr-2 h-4 w-4" />
+                    Orders
+                  </Link>
+                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 
