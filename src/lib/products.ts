@@ -466,6 +466,120 @@ const products: Product[] = [
       { id: "r24-2", author: "SmoothieKing", rating: 4, comment: "Good for smoothies, but a little thin for my coffee." },
     ],
     seller: "FreshMart"
+  },
+  {
+    id: "25",
+    name: "SonicWave Soundbar",
+    description: "Elevate your home theater experience with the SonicWave Soundbar. With Dolby Atmos support and a wireless subwoofer, it delivers immersive, room-filling sound.",
+    price: 14999.00,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=2070&auto=format=fit=crop",
+    category: "Electronics",
+    specifications: {
+      "Channels": "3.1.2",
+      "Connectivity": "HDMI eARC, Bluetooth",
+      "Power": "400W",
+      "Features": "Dolby Atmos, Wireless Subwoofer",
+    },
+    reviews: [
+      { id: "r25-1", author: "Cinephile", rating: 5, comment: "The sound is incredible for the price. Movies feel so much more immersive." }
+    ],
+    seller: "AudioPhile Inc."
+  },
+  {
+    id: "26",
+    name: "Chrono Gaming Mouse",
+    description: "Get precision and speed with the Chrono Gaming Mouse. Featuring an 18,000 DPI sensor, programmable buttons, and an ergonomic design for long gaming sessions.",
+    price: 2999.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1615663249893-c4635e2bab61?q=80&w=2070&auto=format=fit=crop",
+    category: "Gaming",
+    specifications: {
+      "DPI": "18,000",
+      "Buttons": "8 programmable",
+      "Weight": "97g",
+      "Lighting": "RGB",
+    },
+    reviews: [
+      { id: "r26-1", author: "ProGamerX", rating: 5, comment: "Super accurate and comfortable. The software is easy to use for macros." }
+    ],
+    seller: "GameGear"
+  },
+  {
+    id: "27",
+    name: "ErgoFlow Office Chair",
+    description: "Stay comfortable and productive with the ErgoFlow Office Chair. Its ergonomic design provides excellent lumbar support, and the breathable mesh back keeps you cool all day.",
+    price: 12999.00,
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1887&auto=format=fit=crop",
+    category: "Home & Furniture",
+    specifications: {
+      "Material": "Mesh back, fabric seat",
+      "Adjustments": "Height, Tilt, Armrests",
+      "Weight Capacity": "120kg",
+      "Feature": "Lumbar Support"
+    },
+    reviews: [
+        { id: "r27-1", author: "WFHWarrior", rating: 5, comment: "My back is thanking me. So much better than my old chair." }
+    ],
+    seller: "SleepWell Co."
+  },
+  {
+    id: "28",
+    name: "AquaPure Smart Water Pitcher",
+    description: "Enjoy pure, fresh-tasting water with the AquaPure Smart Water Pitcher. It removes contaminants and tracks filter life with a handy LED indicator, ensuring you always have the best quality water.",
+    price: 2999.00,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1607198179361-913a0f7f32c9?q=80&w=1887&auto=format=fit=crop",
+    category: "Appliances",
+    specifications: {
+      "Capacity": "10-Cup",
+      "Filter Life": "40 Gallons",
+      "Removes": "Chlorine, lead, mercury",
+      "Feature": "LED Filter Indicator",
+    },
+    reviews: [
+      { id: "r28-1", author: "HydroHomie", rating: 5, comment: "Water tastes great and the reminder light is super helpful." }
+    ],
+    seller: "HomeBrew"
+  },
+  {
+    id: "29",
+    name: "DynaLift Dumbbell Set",
+    description: "Build strength at home with the DynaLift Adjustable Dumbbell Set. Easily switch from 2.5kg to 24kg with a simple dial, replacing an entire rack of weights. Perfect for a wide range of exercises.",
+    price: 15999.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?q=80&w=2071&auto=format=fit=crop",
+    category: "Fitness",
+    specifications: {
+      "Weight Range": "2.5kg - 24kg",
+      "Mechanism": "Dial System",
+      "Includes": "2 dumbbells, 2 trays",
+      "Material": "Steel, Durable Molding"
+    },
+    reviews: [
+      { id: "r29-1", author: "HomeGymHero", rating: 5, comment: "These are amazing. So easy to switch weights and they save so much space." }
+    ],
+    seller: "ZenFlow"
+  },
+  {
+    id: "30",
+    name: "TerraGrip Hiking Boots",
+    description: "Tackle any terrain with confidence in TerraGrip Hiking Boots. These waterproof boots offer excellent ankle support and a high-traction outsole, keeping your feet dry and secure on challenging trails.",
+    price: 7999.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1520211831804-9f0f7c68d27a?q=80&w=1887&auto=format=fit=crop",
+    category: "Sports & Outdoors",
+    specifications: {
+      "Material": "Leather and Gore-Tex",
+      "Waterproof": "Yes",
+      "Outsole": "Vibram Megagrip",
+      "Weight": "550g per boot",
+    },
+    reviews: [
+        { id: "r30-1", author: "TrailBlazer", rating: 5, comment: "Kept my feet perfectly dry through a stream crossing. Super comfortable." }
+    ],
+    seller: "Outdoor Ventures"
   }
 ];
 
