@@ -620,25 +620,6 @@ const products: Product[] = [
     seller: "PageTurners"
   },
   {
-    id: "33",
-    name: "The Lord of the Rings",
-    description: "J.R.R. Tolkien's epic high-fantasy novel. A thrilling adventure of good versus evil, friendship, and courage in the world of Middle-earth.",
-    price: 999.00,
-    rating: 4.9,
-    image: "https://images.unsplash.com/photo-1509266272358-778da8ce4881?q=80&w=1887&auto=format=fit=crop",
-    category: "Books",
-    specifications: {
-      "Author": "J.R.R. Tolkien",
-      "Genre": "Fantasy",
-      "Pages": "1178",
-      "Binding": "Box Set"
-    },
-    reviews: [
-      { id: "r33-1", author: "FantasyFan", rating: 5, comment: "The greatest fantasy story ever told. An absolute masterpiece." }
-    ],
-    seller: "PageTurners"
-  },
-  {
     id: "34",
     name: "Organic Quinoa",
     description: "A nutritious and versatile gluten-free grain. Our organic quinoa is pre-washed and easy to cook, making it a perfect base for salads, bowls, or as a side dish.",
