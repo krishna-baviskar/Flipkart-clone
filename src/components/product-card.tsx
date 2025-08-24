@@ -12,9 +12,9 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   return (
-    <Card className="flex flex-col overflow-hidden h-full transition-shadow duration-300 hover:shadow-lg border-0">
-        <Link href={`/product/${product.id}`} className="block text-center p-4">
-          <div className="relative h-40 w-40 mx-auto">
+    <Card className="flex flex-col overflow-hidden h-full transition-shadow duration-300 hover:shadow-lg rounded-md">
+        <Link href={`/product/${product.id}`} className="block text-center p-4 bg-white">
+          <div className="relative h-40 w-full">
             <Image
               src={product.image}
               alt={product.name}
@@ -24,12 +24,12 @@ export function ProductCard({ product }: ProductCardProps) {
             />
           </div>
         </Link>
-      <CardContent className="p-2 flex-grow flex flex-col items-center text-center">
+      <CardContent className="p-4 flex-grow flex flex-col items-center text-center bg-card">
         <Link href={`/product/${product.id}`} className="block">
-          <p className="text-sm font-medium leading-snug hover:text-primary transition-colors">
+          <p className="text-sm font-medium leading-snug hover:text-primary transition-colors h-10 overflow-hidden">
             {product.name}
           </p>
-           <p className="text-sm text-green-600 font-semibold mt-1">₹{product.price.toFixed(2)}</p>
+           <p className="text-sm text-green-600 font-semibold mt-2">From ₹{product.price.toLocaleString('en-IN')}</p>
            <p className="text-sm text-muted-foreground mt-1">{product.category}</p>
         </Link>
       </CardContent>
