@@ -10,7 +10,7 @@ import { CartProvider } from "@/context/cart-provider";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Mokart",
+  title: "Flipkart",
   description: "A modern e-commerce platform.",
 };
 
