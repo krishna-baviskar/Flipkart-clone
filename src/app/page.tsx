@@ -10,7 +10,7 @@ export default function Home() {
     <div>
         <div className="container mx-auto px-4 py-4">
             <Image 
-                src="https://placehold.co/1200x300/f0f0f0/f0f0f0" 
+                src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/b53f2g45435a24.jpg" 
                 alt="Promotional banner"
                 width={1200}
                 height={300}
