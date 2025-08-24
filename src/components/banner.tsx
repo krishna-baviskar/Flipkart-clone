@@ -12,11 +12,11 @@ import Autoplay from "embla-carousel-autoplay";
 
 const bannerImages = [
     { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/e5117445d2fc66ca.jpeg?q=80", alt: "Banner 1", hint: "electronics sale" },
-    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/b8da94ea4f2b585c.jpg?q=80", alt: "Banner 2", hint: "mobile phone launch" },
-    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/8c46a61fac2731d1.jpeg?q=80", alt: "Banner 3", hint: "fashion discount" },
-    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/d360216434863a8b.jpeg?q=80", alt: "Banner 4", hint: "home appliances" },
-    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/84ae27f93c14a4e3.jpg?q=80", alt: "Banner 5", hint: "travel booking" },
-    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/0bde3c3e8825a173.jpeg?q=80", alt: "Banner 6", hint: "grocery deals" },
+   { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/2f933017cefe86ac.jpeg?q=80", alt: "Banner 2", hint: "mobile phone launch" },
+    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/5b309e98775e22e4.jpg?q=80", alt: "Banner 3", hint: "fashion discount" },
+    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/a5a7228004d1191f.jpg?q=80", alt: "Banner 4", hint: "home appliances" },
+    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/e5117445d2fc66ca.jpeg?q=80", alt: "Banner 5", hint: "travel booking" },
+    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1338bd4fc60390d8.jpg?q=80", alt: "Banner 6", hint: "grocery deals" },
     { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/2f933017cefe86ac.jpeg?q=80", alt: "Banner 7", hint: "special offer" },
     { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/5b309e98775e22e4.jpg?q=80", alt: "Banner 8", hint: "new offer" },
 ]
@@ -40,7 +40,7 @@ export function Banner() {
                 data-ai-hint={banner.hint}
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  target.src = `https://placehold.co/1600x270.png`;
+                  target.src = `https://placehold.co/1620x270.png`;
                 }}
               />
             </div>
