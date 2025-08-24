@@ -29,7 +29,7 @@ const products: Product[] = [
     description: "Immerse yourself in crystal-clear audio with AuraSound Wireless Earbuds. Featuring active noise cancellation, a comfortable ergonomic fit, and seamless Bluetooth 5.3 connectivity. Enjoy up to 30 hours of playtime with the compact charging case.",
     price: 2499.00,
     rating: 4.6,
-    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/s/5/o/-original-imah5h427t2uhpfx.jpeg?q=70",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/g/x/z/fire-pods-aura-fire-boltt-original-imagrhu5kjxzrfen.jpeg?q=70",
     category: "Electronics",
     specifications: {
       "Connectivity": "Bluetooth 5.3",
