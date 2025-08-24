@@ -223,7 +223,7 @@ const products: Product[] = [
     description: "Achieve radiant skin with the GlowUp Skincare Set. This curated collection includes a gentle cleanser, a hydrating serum, and a nourishing moisturizer, all made with natural, cruelty-free ingredients.",
     price: 2499.00,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1887&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/moisturizer-cream/5/1/u/-original-imahek2pffph7kqk.jpeg?q=70",
     category: "Beauty",
     specifications: {
       "Includes": "Cleanser, Serum, Moisturizer",
