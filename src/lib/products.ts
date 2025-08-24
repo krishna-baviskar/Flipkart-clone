@@ -530,7 +530,7 @@ const products: Product[] = [
     description: "Enjoy pure, fresh-tasting water with the AquaPure Smart Water Pitcher. It removes contaminants and tracks filter life with a handy LED indicator, ensuring you always have the best quality water.",
     price: 2999.00,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1607198179361-913a0f7f32c9?q=80&w=1887&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/312/312/xif0q/water-purifier/r/q/q/dellpure-zinc-copper-9-stage-purification-water-purifier-with-original-imah6xhhjxunhwky.jpeg?q=70",
     category: "Appliances",
     specifications: {
       "Capacity": "10-Cup",
