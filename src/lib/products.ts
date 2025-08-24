@@ -185,7 +185,7 @@ const products: Product[] = [
     description: "Capture breathtaking aerial shots with the SkyExplorer Drone. Equipped with a 4K camera, 3-axis gimbal, and intelligent flight modes. It's foldable, portable, and easy for beginners to fly.",
     price: 29999.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1507582020474-9a3304a711e3?q=80&w=2070&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/312/312/xif0q/drone/m/h/q/40-24-1-4k-wifi-dual-camera-drone-for-adults-kids-with-2-original-imagrfa6esxteknr.jpeg?q=70",
     category: "Electronics",
     specifications: {
       "Camera": "4K UHD @ 30fps",
