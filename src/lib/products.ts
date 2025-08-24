@@ -243,7 +243,7 @@ const products: Product[] = [
     description: "A timeless staple for any wardrobe. This classic crew-neck t-shirt is made from 100% premium cotton for a soft and comfortable feel. Perfect for layering or wearing on its own.",
     price: 799.00,
     rating: 4.5,
-    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/w/a/6/l-mt416-metronaut-original-imagmj8zukjug532.jpeg?q=70",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/y/m/e/l-or10-technosport-original-imagnbpydgffr6x7.jpeg?q=70",
     category: "Fashion",
     specifications: {
       "Material": "100% Cotton",
