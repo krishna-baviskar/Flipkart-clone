@@ -10,9 +10,8 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <style>{`.font-logo { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 20px; }`}</style>
-      <text x="0" y="20" className="font-logo" fill="hsl(var(--primary))">
-        Retail
-        <tspan fill="hsl(var(--accent))">Replicate</tspan>
+      <text x="0" y="20" className="font-logo" fill="hsl(var(--accent))">
+        Mokart
       </text>
     </svg>
   );

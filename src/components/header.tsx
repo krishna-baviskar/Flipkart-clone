@@ -1,45 +1,48 @@
 "use client";
 
 import Link from "next/link";
-import { ShoppingCart, User } from "lucide-react";
+import { Search, ShoppingCart, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/hooks/use-cart";
 import { Logo } from "./logo";
-import { ProductListControls } from "./product-list-controls";
+import { Input } from "@/components/ui/input";
 
 export function Header() {
   const { items } = useCart();
   const cartItemCount = items.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full bg-primary text-primary-foreground">
       <div className="container flex h-16 items-center">
-        <div className="mr-4 hidden md:flex">
+        <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Logo />
           </Link>
         </div>
-        <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-          <div className="w-full flex-1 md:w-auto md:flex-none">
-            {/* The search and sort controls will be rendered here on the main page */}
-            {/* On other pages, a simple search bar could be shown. For now, this is ok. */}
-          </div>
-          <nav className="flex items-center">
-            <Button variant="ghost" size="icon" asChild>
+        <div className="flex-1 relative">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+            <Input
+              placeholder="Search for products, brands and more"
+              className="pl-10 w-full bg-background text-foreground"
+            />
+        </div>
+        <div className="flex flex-1 items-center justify-end space-x-2 md:justify-end">
+          <nav className="flex items-center gap-4">
+             <Button variant="ghost" asChild>
+              <Link href="/login">
+                <User className="mr-2 h-5 w-5" />
+                Login
+              </Link>
+            </Button>
+            <Button variant="ghost" asChild>
               <Link href="/cart">
-                <ShoppingCart className="h-5 w-5" />
+                <ShoppingCart className="mr-2 h-5 w-5" />
+                Cart
                 {cartItemCount > 0 && (
-                  <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs">
+                  <span className="ml-2 flex h-5 w-5 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs">
                     {cartItemCount}
                   </span>
                 )}
-                <span className="sr-only">Shopping Cart</span>
-              </Link>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
-              <Link href="/login">
-                <User className="h-5 w-5" />
-                <span className="sr-only">User Profile</span>
               </Link>
             </Button>
           </nav>
