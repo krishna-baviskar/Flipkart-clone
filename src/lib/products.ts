@@ -339,7 +339,7 @@ const products: Product[] = [
     description: "Breathe cleaner air with the PureAir Smart Air Purifier. It features a 3-stage filtration system that captures 99.97% of airborne particles, including dust, pollen, and smoke. Monitor and control air quality from your smartphone.",
     price: 11999.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1628867332039-5a886d3c2a65?q=80&w=1887&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/312/312/xif0q/air-purifier/1/s/l/21-5-air-touch-v1-21-5-1-5-honeywell-original-imah6gyzjxc8rgnz.jpeg?q=70",
     category: "Appliances",
     specifications: {
       "Filtration": "HEPA H13 Filter",
@@ -606,7 +606,7 @@ const products: Product[] = [
     description: "Harper Lee's Pulitzer Prize-winning masterwork of honor and injustice in the deep South—and the heroism of one man in the face of blind and violent hatred.",
     price: 299.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1592453539803-510427c19bce?q=80&w=1964&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/book/f/7/c/to-kill-a-mockingbird-novel-original-imah7tsms62zbv93.jpeg?q=70",
     category: "Books",
     specifications: {
       "Author": "Harper Lee",
