@@ -580,6 +580,63 @@ const products: Product[] = [
         { id: "r30-1", author: "TrailBlazer", rating: 5, comment: "Kept my feet perfectly dry through a stream crossing. Super comfortable." }
     ],
     seller: "Outdoor Ventures"
+  },
+  {
+    id: "31",
+    name: "Atomic Habits",
+    description: "An Easy & Proven Way to Build Good Habits & Break Bad Ones by James Clear. This book offers a practical framework for improving every day.",
+    price: 499.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1589998059171-988d887df646?q=80&w=2070&auto=format=fit=crop",
+    category: "Books",
+    specifications: {
+      "Author": "James Clear",
+      "Genre": "Self-Help",
+      "Pages": "320",
+      "Binding": "Hardcover"
+    },
+    reviews: [
+      { id: "r31-1", author: "GrowthMindset", rating: 5, comment: "Life-changing book. The strategies are simple and effective." }
+    ],
+    seller: "PageTurners"
+  },
+  {
+    id: "32",
+    name: "To Kill a Mockingbird",
+    description: "Harper Lee's Pulitzer Prize-winning masterwork of honor and injustice in the deep South—and the heroism of one man in the face of blind and violent hatred.",
+    price: 299.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1592453539803-510427c19bce?q=80&w=1964&auto=format=fit=crop",
+    category: "Books",
+    specifications: {
+      "Author": "Harper Lee",
+      "Genre": "Classic Fiction",
+      "Pages": "324",
+      "Binding": "Paperback"
+    },
+    reviews: [
+      { id: "r32-1", author: "ClassicReader", rating: 5, comment: "A timeless classic that everyone should read. Beautifully written." }
+    ],
+    seller: "PageTurners"
+  },
+  {
+    id: "33",
+    name: "The Lord of the Rings",
+    description: "J.R.R. Tolkien's epic high-fantasy novel. A thrilling adventure of good versus evil, friendship, and courage in the world of Middle-earth.",
+    price: 999.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1509266272358-778da8ce4881?q=80&w=1887&auto=format=fit=crop",
+    category: "Books",
+    specifications: {
+      "Author": "J.R.R. Tolkien",
+      "Genre": "Fantasy",
+      "Pages": "1178",
+      "Binding": "Box Set"
+    },
+    reviews: [
+      { id: "r33-1", author: "FantasyFan", rating: 5, comment: "The greatest fantasy story ever told. An absolute masterpiece." }
+    ],
+    seller: "PageTurners"
   }
 ];
 
