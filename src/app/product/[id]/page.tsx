@@ -55,7 +55,7 @@ export default function ProductPage({ params }: ProductPageProps) {
             </div>
           </div>
           
-          <p className="text-3xl font-bold">${product.price.toFixed(2)}</p>
+          <p className="text-3xl font-bold">₹{product.price.toFixed(2)}</p>
 
           <p className="text-muted-foreground leading-relaxed">{product.description}</p>
           

@@ -29,7 +29,7 @@ export function ProductCard({ product }: ProductCardProps) {
           <p className="text-sm font-medium leading-snug hover:text-primary transition-colors">
             {product.name}
           </p>
-           <p className="text-sm text-green-600 font-semibold mt-1">${product.price.toFixed(2)}</p>
+           <p className="text-sm text-green-600 font-semibold mt-1">₹{product.price.toFixed(2)}</p>
            <p className="text-sm text-muted-foreground mt-1">{product.category}</p>
         </Link>
       </CardContent>
