@@ -313,6 +313,82 @@ const products: Product[] = [
         { id: "r16-1", author: "Bookworm22", rating: 5, comment: "One of the best books I've read this year. So imaginative and beautiful." }
     ],
     seller: "PageTurners"
+  },
+  {
+    id: "17",
+    name: "AeroGlide Running Shoes",
+    description: "Experience feather-light runs with the AeroGlide Running Shoes. Designed for both speed and comfort, they feature a responsive foam sole and a breathable mesh upper to keep your feet cool and supported over any distance.",
+    price: 3499.00,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ab?q=80&w=2070&auto=format=fit=crop",
+    category: "Fashion",
+    specifications: {
+      "Type": "Running Shoes",
+      "Sole": "Responsive Foam",
+      "Upper": "Breathable Mesh",
+      "Best for": "Road Running"
+    },
+    reviews: [
+        { id: "r17-1", author: "Runner123", rating: 5, comment: "Incredibly comfortable and light. Feels like running on clouds." }
+    ],
+    seller: "FitStride"
+  },
+  {
+    id: "18",
+    name: "PureAir Smart Air Purifier",
+    description: "Breathe cleaner air with the PureAir Smart Air Purifier. It features a 3-stage filtration system that captures 99.97% of airborne particles, including dust, pollen, and smoke. Monitor and control air quality from your smartphone.",
+    price: 11999.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1628867332039-5a886d3c2a65?q=80&w=1887&auto=format=fit=crop",
+    category: "Appliances",
+    specifications: {
+      "Filtration": "HEPA H13 Filter",
+      "Coverage Area": "Up to 400 sq. ft.",
+      "Smart Features": "App Control, Auto Mode",
+      "Noise Level": "24dB (Sleep Mode)"
+    },
+    reviews: [
+      { id: "r18-1", author: "HealthyHome", rating: 5, comment: "Noticeable difference in air quality. The auto mode is fantastic." }
+    ],
+    seller: "HomeBrew"
+  },
+  {
+    id: "19",
+    name: "Digital Artist Pro Tablet",
+    description: "Unleash your creativity with the Digital Artist Pro Tablet. With a large, high-resolution screen and a pressure-sensitive pen, it provides a natural drawing experience. Perfect for digital painting, photo editing, and graphic design.",
+    price: 24990.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1589742597404-3a1103f19e34?q=80&w=2070&auto=format=fit=crop",
+    category: "Electronics",
+    specifications: {
+      "Active Area": "13.3 inches",
+      "Resolution": "2560 x 1600",
+      "Pen Pressure": "8192 Levels",
+      "Compatibility": "Windows, macOS"
+    },
+    reviews: [
+        { id: "r19-1", author: "ArtDiva", rating: 5, comment: "This tablet is a game-changer for my workflow. The pen feels amazing." }
+    ],
+    seller: "TechNexa"
+  },
+  {
+    id: "20",
+    name: "Minimalist Modern Bookshelf",
+    description: "Display your favorite books and decor on this minimalist modern bookshelf. Its clean lines and open-shelf design add a touch of sophistication to any room. Made from durable, sustainably sourced wood.",
+    price: 6999.00,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1594215243166-5e5558156a65?q=80&w=1887&auto=format=fit=crop",
+    category: "Home & Furniture",
+    specifications: {
+      "Material": "Solid Oak",
+      "Dimensions": "70\" x 30\" x 12\"",
+      "Shelves": "5",
+      "Assembly": "Required"
+    },
+    reviews: [
+        { id: "r20-1", author: "DesignLover", rating: 5, comment: "Looks stunning in my living room. Very sturdy and high-quality." }
+    ],
+    seller: "SleepWell Co."
   }
 ];
 
