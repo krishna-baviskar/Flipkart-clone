@@ -492,7 +492,7 @@ const products: Product[] = [
     description: "Get precision and speed with the Chrono Gaming Mouse. Featuring an 18,000 DPI sensor, programmable buttons, and an ergonomic design for long gaming sessions.",
     price: 2999.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1615663249893-c4635e2bab61?q=80&w=2070&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/mouse/v/v/j/rgb-led-lightweight-and-ergonomic-design-dpi-upto-3600-flipkart-original-imahywqgej6yzuh7.jpeg?q=70",
     category: "Gaming",
     specifications: {
       "DPI": "18,000",
