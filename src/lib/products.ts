@@ -377,7 +377,7 @@ const products: Product[] = [
     description: "Display your favorite books and decor on this minimalist modern bookshelf. Its clean lines and open-shelf design add a touch of sophistication to any room. Made from durable, sustainably sourced wood.",
     price: 6999.00,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1594215243166-5e5558156a65?q=80&w=1887&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/book-shelf/j/v/9/30-stainless-steel-54-0-3-4l-metal-bookshelf-powerest-56-slate-4-original-imah8ew5vfxggfgz.jpeg?q=70",
     category: "Home & Furniture",
     specifications: {
       "Material": "Solid Oak",
@@ -800,3 +800,5 @@ export function getProducts(): Product[] {
 export function getProductById(id: string): Product | undefined {
   return products.find(p => p.id === id);
 }
+
+    
