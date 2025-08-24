@@ -70,7 +70,7 @@ const products: Product[] = [
     description: "Dominate the competition with the Gamer's Edge Mechanical Keyboard. Featuring customizable RGB lighting, ultra-responsive mechanical switches, and a durable aluminum frame. Programmable macro keys give you the ultimate advantage in any game.",
     price: 5499.00,
     rating: 4.7,
-    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/gaming-accessory-kit/gaming-trigger/w/u/5/pack-2-trigger-finger-sleeve-mobile-pubg-faug-free-fire-call-of-original-imah7f7czkbwnyg7.jpeg?q=70",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/keyboard/multi-device-keyboard/u/m/a/k500-usb-keyboard-zebion-original-imah4ym7mhjaeagz.jpeg?q=70",
     category: "Gaming",
     specifications: {
       "Switches": "Red Mechanical",
@@ -644,7 +644,7 @@ const products: Product[] = [
     description: "A nutritious and versatile gluten-free grain. Our organic quinoa is pre-washed and easy to cook, making it a perfect base for salads, bowls, or as a side dish.",
     price: 399.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1598948240223-ce6a877545de?q=80&w=1887&auto=format=fit=crop",
+    image: "https://images.unsplash.com/photo-1598948240223-ce6a87754de?q=80&w=1887&auto=format=fit=crop",
     category: "Grocery",
     specifications: {
       "Weight": "500g",
