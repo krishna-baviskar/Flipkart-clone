@@ -778,7 +778,7 @@ const products: Product[] = [
     description: "Keep your screen pristine with the CrystalClear Screen Protector. Made from ultra-tough tempered glass, it resists scratches and impacts while maintaining perfect touch sensitivity and clarity. Easy, bubble-free installation.",
     price: 599.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1598327105553-979986016f49?q=80&w=1964&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/screen-guard/edge-to-edge-tempered-glass/g/f/d/eit-02-g14-5g-eitansha-creation-original-imah6mv8feznvb4d.jpeg?q=70",
     category: "Mobiles",
     specifications: {
       "Material": "9H Tempered Glass",
