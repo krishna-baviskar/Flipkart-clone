@@ -89,7 +89,7 @@ const products: Product[] = [
     description: "Become your own barista with the Barista Pro Espresso Machine. This semi-automatic machine gives you hands-on control over your coffee, from grind size to milk texture. The built-in conical burr grinder delivers the perfect amount of coffee on demand.",
     price: 69995.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1565065355523-22838a855992?q=80&w=1974&auto=format&fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/coffee-maker/y/c/b/2-in-1-coffee-maker-20-bar-espresso-machine-capsules-coffee-original-imahdqfgv7txzy9w.jpeg?q=70",
     category: "Appliances",
     specifications: {
       "Type": "Semi-Automatic Espresso Machine",
