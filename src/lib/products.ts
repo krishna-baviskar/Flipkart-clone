@@ -281,7 +281,7 @@ const products: Product[] = [
     description: "Discover the future of mobile with the Nebula Smartphone X1. It features a stunning edge-to-edge display, a pro-grade camera system, and lightning-fast 5G capabilities, all powered by the next-gen Nebula chipset.",
     price: 64999.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1780&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/n/u/nord-ce5-5g-cph2717-oneplus-original-imaheywzahvkwqkh.jpeg?q=70",
     category: "Mobiles",
     specifications: {
       "Display": "6.7\" Dynamic AMOLED 2X",
