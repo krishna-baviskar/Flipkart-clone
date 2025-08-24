@@ -358,7 +358,7 @@ const products: Product[] = [
     description: "Unleash your creativity with the Digital Artist Pro Tablet. With a large, high-resolution screen and a pressure-sensitive pen, it provides a natural drawing experience. Perfect for digital painting, photo editing, and graphic design.",
     price: 24990.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1589742597404-3a1103f19e34?q=80&w=2070&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/h/c/p/sm-x210nzaeins-samsung-original-imah25guzjbw9wzh.jpeg?q=70",
     category: "Electronics",
     specifications: {
       "Active Area": "13.3 inches",
