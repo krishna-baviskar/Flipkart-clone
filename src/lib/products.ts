@@ -320,7 +320,7 @@ const products: Product[] = [
     description: "Experience feather-light runs with the AeroGlide Running Shoes. Designed for both speed and comfort, they feature a responsive foam sole and a breathable mesh upper to keep your feet cool and supported over any distance.",
     price: 3499.00,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ab?q=80&w=2070&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/f/k/v/8-nitro-802-8-action-light-grey-navy-original-imahfphzbjcbjckc.jpeg?q=70",
     category: "Fashion",
     specifications: {
       "Type": "Running Shoes",
