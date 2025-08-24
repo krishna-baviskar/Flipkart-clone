@@ -415,7 +415,7 @@ const products: Product[] = [
     description: "Protect your skin from harmful UV rays with our SunGuard Mineral Sunscreen. This broad-spectrum SPF 50 formula is lightweight, non-greasy, and blends effortlessly into the skin without leaving a white cast.",
     price: 899.00,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1599305090422-933a29239a43?q=80&w=1887&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/sunscreen/4/t/d/50-lightweight-gel-sunscreen-no-white-cast-for-men-women-55-original-imahezf456uhegpt.jpeg?q=70",
     category: "Beauty",
     specifications: {
       "SPF": "50",
