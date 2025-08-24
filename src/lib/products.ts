@@ -759,7 +759,7 @@ const products: Product[] = [
     description: "Protect your investment with the ShieldPro Phone Case. This dual-layer case provides military-grade drop protection without adding excessive bulk. The textured grip ensures your phone stays securely in your hand.",
     price: 1299.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1592754868516-9e67d2ba4a23?q=80&w=1887&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/cases-covers/back-cover/m/4/h/zap-mag-ss235g-black-zapcase-original-imah5q4srhdevrtc.jpeg?q=70",
     category: "Mobiles",
     specifications: {
       "Material": "TPU & Polycarbonate",
