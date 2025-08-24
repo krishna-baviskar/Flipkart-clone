@@ -7,7 +7,7 @@ const products: Product[] = [
     description: "Experience unparalleled performance with the QuantumCore Laptop Pro. Featuring the latest generation processor, a stunning 4K display, and a sleek, lightweight design, it's the perfect tool for professionals and creatives alike. With all-day battery life, you can work from anywhere without compromise.",
     price: 149999.00,
     rating: 4.8,
-    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/h/j/o/g16-7630-gaming-laptop-dell-original-imagz85xkyz6c5ba.jpeg",
+    image: "https://images.unsplash.com/photo-1565438480821-03e254dae4f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9kdWN0JTIwaW1hZ2V8ZW58MHx8fHwxNzU2MDY4Njc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Electronics",
     specifications: {
       "Processor": "16-Core QuantumFusion",
@@ -29,7 +29,7 @@ const products: Product[] = [
     description: "Immerse yourself in crystal-clear audio with AuraSound Wireless Earbuds. Featuring active noise cancellation, a comfortable ergonomic fit, and seamless Bluetooth 5.3 connectivity. Enjoy up to 30 hours of playtime with the compact charging case.",
     price: 12999.00,
     rating: 4.6,
-    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/p/r/z/soundcore-r50i-anker-original-imagnuebf2r7ga9z.jpeg",
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9kdWN0JTIwaW1hZ2V8ZW58MHx8fHwxNzU2MDY4Njc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Electronics",
     specifications: {
       "Connectivity": "Bluetooth 5.3",
@@ -49,7 +49,7 @@ const products: Product[] = [
     description: "Upgrade your sleep with the Eco-Comfort Memory Foam Mattress. Made from sustainable, plant-based materials, this mattress provides optimal support and pressure relief. The breathable cover keeps you cool all night long. Comes with a 100-night trial.",
     price: 7990.00,
     rating: 4.9,
-    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/bed-mattress/h/z/e/-original-imagsjghjzh96esf.jpeg",
+    image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcm9kdWN0JTIwaW1hZ2V8ZW58MHx8fHwxNzU2MDY4Njc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Home & Furniture",
     specifications: {
       "Size": "Queen",
@@ -70,7 +70,7 @@ const products: Product[] = [
     description: "Dominate the competition with the Gamer's Edge Mechanical Keyboard. Featuring customizable RGB lighting, ultra-responsive mechanical switches, and a durable aluminum frame. Programmable macro keys give you the ultimate advantage in any game.",
     price: 15999.00,
     rating: 4.7,
-    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/keyboard/gaming-keyboard/o/k/v/led-backlit-rgb-gaming-keyboard-with-multimedia-keys-and-original-imaghffpmzg8zpet.jpeg",
+    image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcm9kdWN0JTIwaW1hZ2V8ZW58MHx8fHwxNzU2MDY4Njc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Gaming",
     specifications: {
       "Switches": "Red Mechanical",
@@ -89,7 +89,7 @@ const products: Product[] = [
     description: "Become your own barista with the Barista Pro Espresso Machine. This semi-automatic machine gives you hands-on control over your coffee, from grind size to milk texture. The built-in conical burr grinder delivers the perfect amount of coffee on demand.",
     price: 69995.00,
     rating: 4.8,
-    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/coffee-maker/d/p/f/1500w-professional-espresso-coffee-machine-15-bar-pressure-pump-original-imagm6n2eghy6xrh.jpeg",
+    image: "https://images.unsplash.com/photo-1541643600914-78b084683601?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwaW1hZ2V8ZW58MHx8fHwxNzU2MDY4Njc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Appliances",
     specifications: {
       "Type": "Semi-Automatic Espresso Machine",
@@ -109,7 +109,7 @@ const products: Product[] = [
     description: "Conquer any trail with the Nomad's Trail Hiking Backpack. With a 65L capacity, adjustable torso length, and multiple compartments, it's designed for multi-day treks. The integrated rain cover and hydration reservoir compatibility make it ready for any adventure.",
     price: 22000.00,
     rating: 4.9,
-    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/backpack/j/u/f/-original-imagzcbjmbp3ftkh.jpeg",
+    image: "https://images.unsplash.com/photo-1541643600914-78b084683601?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwaW1hZ2V8ZW58MHx8fHwxNzU2MDY4Njc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Sports & Outdoors",
     specifications: {
       "Capacity": "65 Liters",
@@ -128,7 +128,7 @@ const products: Product[] = [
     description: "Grow fresh herbs year-round with the SmartGarden Indoor Herb Kit. This self-watering, automated LED-lit system makes it easy for anyone to have a green thumb. Includes a starter kit with basil, mint, and parsley seeds.",
     price: 8999.00,
     rating: 4.5,
-    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/plant-sapling/t/y/p/no-annual-yes-vinca-plant-periwinkle-sadabahar-plant-pack-of-4-original-imaghgju3g2pguqv.jpeg",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9kdWN0JTIwaW1hZ2V8ZW58MHx8fHwxNzU2MDY4Njc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Home & Garden",
     specifications: {
       "Capacity": "3 pods",
@@ -147,7 +147,7 @@ const products: Product[] = [
     description: "Find your flow with the FlexiFit Yoga Mat Pro. Made with non-toxic, eco-friendly materials, it provides superior grip and cushioning. The alignment lines help you perfect your poses. Lightweight and easy to carry.",
     price: 7900.00,
     rating: 4.8,
-    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/yoga-mat/v/p/z/6-mm-pvc-yoga-mat-for-men-women-fitness-workout-gym-exercise-original-imagr2cggxque6ja.jpeg",
+    image: "https://images.unsplash.com/photo-1565438480821-03e254dae4f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9kdWN0JTIwaW1hZ2V8ZW58MHx8fHwxNzU2MDY4Njc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Fitness",
     specifications: {
       "Material": "Eco-friendly TPE",
