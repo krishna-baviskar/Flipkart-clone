@@ -204,7 +204,7 @@ const products: Product[] = [
     description: "Unleash your culinary creativity with the FusionBlend Blender. Its powerful 1500W motor can handle anything from smoothies and soups to nut butters. Features multiple pre-programmed settings for perfect results every time.",
     price: 8999.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1565001475723-644934273295?q=80&w=1962&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/hand-blender/o/4/2/-original-imagx3au8krbannd.jpeg?q=70",
     category: "Appliances",
     specifications: {
       "Power": "1500W",
