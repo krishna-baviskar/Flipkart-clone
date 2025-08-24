@@ -29,7 +29,7 @@ const products: Product[] = [
     description: "Immerse yourself in crystal-clear audio with AuraSound Wireless Earbuds. Featuring active noise cancellation, a comfortable ergonomic fit, and seamless Bluetooth 5.3 connectivity. Enjoy up to 30 hours of playtime with the compact charging case.",
     price: 12999.00,
     rating: 4.6,
-    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/z/b/z/air-pro-6-earbuds-tws-bluetooth-earphone-with-noise-cancellation-original-imagqj5avzqfgyf6.jpeg",
+    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/p/r/z/soundcore-r50i-anker-original-imagnuebf2r7ga9z.jpeg",
     category: "Electronics",
     specifications: {
       "Connectivity": "Bluetooth 5.3",
@@ -49,7 +49,7 @@ const products: Product[] = [
     description: "Upgrade your sleep with the Eco-Comfort Memory Foam Mattress. Made from sustainable, plant-based materials, this mattress provides optimal support and pressure relief. The breathable cover keeps you cool all night long. Comes with a 100-night trial.",
     price: 7990.00,
     rating: 4.9,
-    image: "https://rukminim2.flixcart.com/image/832/832/l26hdow0/mattress-protector/s/v/f/72-36-72x36x6-protector-printed-polycotton-single-bed-size-original-imagdh5zazcg4vjj.jpeg",
+    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/bed-mattress/h/z/e/-original-imagsjghjzh96esf.jpeg",
     category: "Home & Furniture",
     specifications: {
       "Size": "Queen",
@@ -128,7 +128,7 @@ const products: Product[] = [
     description: "Grow fresh herbs year-round with the SmartGarden Indoor Herb Kit. This self-watering, automated LED-lit system makes it easy for anyone to have a green thumb. Includes a starter kit with basil, mint, and parsley seeds.",
     price: 8999.00,
     rating: 4.5,
-    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/plant-sapling/v/z/s/yes-1-bamboo-plant-2-layer-lucky-plant-with-pot-for-indoor-and-original-imagqgd7wzhgpr5h.jpeg",
+    image: "https://rukminim2.flixcart.com/image/832/832/xif0q/plant-sapling/t/y/p/no-annual-yes-vinca-plant-periwinkle-sadabahar-plant-pack-of-4-original-imaghgju3g2pguqv.jpeg",
     category: "Home & Garden",
     specifications: {
       "Capacity": "3 pods",
