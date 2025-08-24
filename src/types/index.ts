@@ -20,3 +20,11 @@ export type CartItem = {
   product: Product;
   quantity: number;
 };
+
+export type Order = {
+  id: string;
+  date: string;
+  items: CartItem[];
+  total: number;
+  status: "Processing" | "Shipped" | "Delivered";
+};

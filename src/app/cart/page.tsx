@@ -2,7 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useCart } from "@/hooks/use-cart";
+import { useOrder } from "@/hooks/use-order";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
@@ -18,7 +20,9 @@ import { useToast } from "@/hooks/use-toast";
 
 export default function CartPage() {
   const { items, removeFromCart, updateQuantity, clearCart } = useCart();
+  const { createOrder } = useOrder();
   const { toast } = useToast();
+  const router = useRouter();
 
   const subtotal = items.reduce(
     (acc, item) => acc + item.product.price * item.quantity,
@@ -40,6 +44,18 @@ export default function CartPage() {
         description: "Your shopping cart is now empty.",
     })
   }
+
+  const handleCheckout = () => {
+    if (items.length > 0) {
+      createOrder(items, subtotal);
+      clearCart();
+      toast({
+        title: "Order Placed!",
+        description: "Your order has been successfully placed.",
+      });
+      router.push("/orders");
+    }
+  };
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -124,7 +140,7 @@ export default function CartPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button className="w-full" size="lg">
+                <Button className="w-full" size="lg" onClick={handleCheckout}>
                   Proceed to Checkout
                 </Button>
               </CardFooter>
