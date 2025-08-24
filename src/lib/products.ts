@@ -637,6 +637,159 @@ const products: Product[] = [
       { id: "r33-1", author: "FantasyFan", rating: 5, comment: "The greatest fantasy story ever told. An absolute masterpiece." }
     ],
     seller: "PageTurners"
+  },
+  {
+    id: "34",
+    name: "Organic Quinoa",
+    description: "A nutritious and versatile gluten-free grain. Our organic quinoa is pre-washed and easy to cook, making it a perfect base for salads, bowls, or as a side dish.",
+    price: 399.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1598948240223-ce6a877545de?q=80&w=1887&auto=format=fit=crop",
+    category: "Grocery",
+    specifications: {
+      "Weight": "500g",
+      "Type": "White Quinoa",
+      "Certification": "Organic",
+      "Gluten-Free": "Yes"
+    },
+    reviews: [
+      { id: "r34-1", author: "HealthyChef", rating: 5, comment: "Excellent quality quinoa. Cooks up fluffy every time." }
+    ],
+    seller: "FreshMart"
+  },
+  {
+    id: "35",
+    name: "Extra Virgin Olive Oil",
+    description: "Cold-pressed from the finest Italian olives, our extra virgin olive oil has a rich, fruity flavor perfect for dressings, marinades, or finishing dishes.",
+    price: 699.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1626201476426-88a2c2c0c82a?q=80&w=1887&auto=format=fit=crop",
+    category: "Grocery",
+    specifications: {
+      "Volume": "500ml",
+      "Origin": "Italy",
+      "Type": "Cold-Pressed, Extra Virgin",
+      "Acidity": "< 0.8%",
+    },
+    reviews: [
+      { id: "r35-1", author: "GourmetCook", rating: 5, comment: "Beautiful, peppery flavor. You can taste the quality." }
+    ],
+    seller: "FreshMart"
+  },
+  {
+    id: "36",
+    name: "Organic Whole Wheat Pasta",
+    description: "A healthy and delicious choice for your favorite pasta dishes. Made from 100% organic durum whole wheat, this pasta is high in fiber and has a wonderful nutty flavor.",
+    price: 199.00,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1595208882504-68d98e503328?q=80&w=1887&auto=format=fit=crop",
+    category: "Grocery",
+    specifications: {
+      "Weight": "500g",
+      "Shape": "Fusilli",
+      "Material": "100% Organic Durum Whole Wheat",
+      "Cooking Time": "8-10 minutes",
+    },
+    reviews: [
+        { id: "r36-1", author: "PastaLover", rating: 5, comment: "Great texture and taste for whole wheat pasta. Holds sauce well." }
+    ],
+    seller: "FreshMart"
+  },
+  {
+    id: "37",
+    name: "Aura Gaming Headset",
+    description: "Immerse yourself in the game with the Aura Gaming Headset. Featuring 7.1 surround sound, a noise-cancelling microphone, and plush memory foam earcups for ultimate comfort during long gaming sessions.",
+    price: 4999.00,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1590695247493-240b9d1e353b?q=80&w=2070&auto=format=fit=crop",
+    category: "Gaming",
+    specifications: {
+      "Audio": "7.1 Surround Sound",
+      "Microphone": "Noise-Cancelling, Detachable",
+      "Connectivity": "USB, 3.5mm Jack",
+      "Compatibility": "PC, PS5, Xbox, Switch"
+    },
+    reviews: [
+        { id: "r37-1", author: "SoundNinja", rating: 5, comment: "The surround sound is amazing for FPS games. I can hear everything." }
+    ],
+    seller: "GameGear"
+  },
+  {
+    id: "38",
+    name: "ProGamer Ergonomic Chair",
+    description: "Game in comfort and style with the ProGamer Ergonomic Chair. Designed for long hours of play, it features adjustable armrests, lumbar support, a high backrest, and a reclining function.",
+    price: 19999.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1598550476439-6847785f5533?q=80&w=1887&auto=format=fit=crop",
+    category: "Gaming",
+    specifications: {
+      "Material": "PU Leather",
+      "Recline": "90-155 Degrees",
+      "Adjustments": "4D Armrests, Lumbar & Neck Pillows",
+      "Weight Capacity": "135kg"
+    },
+    reviews: [
+        { id: "r38-1", author: "SitAndGame", rating: 5, comment: "Super comfortable and the support is great for my back. A must-have for any serious gamer." }
+    ],
+    seller: "GameGear"
+  },
+  {
+    id: "39",
+    name: "Pixel 8a Smartphone",
+    description: "The Pixel 8a is a powerful and affordable smartphone from Google, featuring an amazing camera, a vibrant display, and all-day battery life. It's the smart choice for smart photos and helpful features.",
+    price: 45999.00,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1695664593593-92a3b46c6444?q=80&w=1964&auto=format=fit=crop",
+    category: "Mobiles",
+    specifications: {
+      "Display": "6.1-inch Actua display",
+      "Processor": "Google Tensor G3",
+      "Camera": "64 MP Main, 13 MP Ultrawide",
+      "Battery": "4492 mAh",
+      "Storage": "128GB"
+    },
+    reviews: [
+        { id: "r39-1", author: "AndroidFan", rating: 5, comment: "The camera is pure magic. Best phone I've ever owned at this price point." }
+    ],
+    seller: "StellarTech"
+  },
+  {
+    id: "40",
+    name: "ShieldPro Phone Case",
+    description: "Protect your investment with the ShieldPro Phone Case. This dual-layer case provides military-grade drop protection without adding excessive bulk. The textured grip ensures your phone stays securely in your hand.",
+    price: 1299.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1592754868516-9e67d2ba4a23?q=80&w=1887&auto=format=fit=crop",
+    category: "Mobiles",
+    specifications: {
+      "Material": "TPU & Polycarbonate",
+      "Compatibility": "Fits Nebula X1, Pixel 8a",
+      "Drop Protection": "10 ft",
+      "Feature": "Enhanced Grip"
+    },
+    reviews: [
+        { id: "r40-1", author: "ButterFingers", rating: 5, comment: "Already dropped my phone twice and this case saved it. Solid protection." }
+    ],
+    seller: "MobileGuard"
+  },
+  {
+    id: "41",
+    name: "CrystalClear Screen Protector",
+    description: "Keep your screen pristine with the CrystalClear Screen Protector. Made from ultra-tough tempered glass, it resists scratches and impacts while maintaining perfect touch sensitivity and clarity. Easy, bubble-free installation.",
+    price: 599.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1598327105553-979986016f49?q=80&w=1964&auto=format=fit=crop",
+    category: "Mobiles",
+    specifications: {
+      "Material": "9H Tempered Glass",
+      "Compatibility": "Fits Nebula X1, Pixel 8a",
+      "Hardness": "9H",
+      "Includes": "2-Pack, installation kit"
+    },
+    reviews: [
+        { id: "r41-1", author: "ScreenSaver", rating: 5, comment: "Goes on super easy and you can't even tell it's there. A must-have accessory." }
+    ],
+    seller: "MobileGuard"
   }
 ];
 
