@@ -453,7 +453,7 @@ const products: Product[] = [
     description: "A creamy and delicious dairy-free alternative. Our organic almond milk is made with simple ingredients and is unsweetened, making it a versatile choice for your cereal, coffee, or smoothies.",
     price: 249.00,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1620189507195-68309c04c4d5?q=80&w=1887&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/milk/d/b/e/180-almond-milk-packed-with-essential-nutrients-vitamins-tin-original-imahbgxwgqfhgsfz.jpeg?q=70",
     category: "Grocery",
     specifications: {
       "Volume": "1L",
