@@ -16,6 +16,8 @@ export default function Home() {
   const fashion = products.filter(p => p.category === "Fashion");
   const fitness = products.filter(p => p.category === "Fitness" || p.category === "Sports & Outdoors");
   const books = products.filter(p => p.category === "Books");
+  const beauty = products.filter(p => p.category === "Beauty");
+  const grocery = products.filter(p => p.category === "Grocery");
   
   return (
     <div className="space-y-4">
@@ -32,6 +34,8 @@ export default function Home() {
         <SecondaryBanner />
         <ProductList products={home} title="Top Picks for Your Home" />
         <ProductList products={fashion} title="Top Fashion Picks" />
+        <ProductList products={beauty} title="Beauty, Food, Toys & more" />
+        <ProductList products={grocery} title="Top Picks in Grocery" />
         <ProductList products={fitness} title="Sports & Fitness" />
         <ProductList products={books} title="Bestselling Books" />
         <ProductList products={topPicks} title="Top Picks" />

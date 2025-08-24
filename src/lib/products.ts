@@ -389,6 +389,83 @@ const products: Product[] = [
         { id: "r20-1", author: "DesignLover", rating: 5, comment: "Looks stunning in my living room. Very sturdy and high-quality." }
     ],
     seller: "SleepWell Co."
+  },
+  {
+    id: "21",
+    name: "HydraBoost Face Serum",
+    description: "Intensely hydrate and plump your skin with our HydraBoost Face Serum, packed with hyaluronic acid and vitamin B5. This lightweight formula absorbs quickly, leaving your skin feeling soft, smooth, and revitalized.",
+    price: 1499.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1887&auto=format=fit=crop",
+    category: "Beauty",
+    specifications: {
+      "Volume": "30ml",
+      "Key Ingredients": "Hyaluronic Acid, Vitamin B5",
+      "Skin Type": "All",
+      "Paraben-Free": "Yes",
+    },
+    reviews: [
+        { id: "r21-1", author: "SkincareAddict", rating: 5, comment: "My skin drinks this up! It feels so hydrated and looks dewy." }
+    ],
+    seller: "LumiBeauty"
+  },
+  {
+    id: "22",
+    name: "SunGuard Mineral Sunscreen SPF 50",
+    description: "Protect your skin from harmful UV rays with our SunGuard Mineral Sunscreen. This broad-spectrum SPF 50 formula is lightweight, non-greasy, and blends effortlessly into the skin without leaving a white cast.",
+    price: 899.00,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1599305090422-933a29239a43?q=80&w=1887&auto=format=fit=crop",
+    category: "Beauty",
+    specifications: {
+      "SPF": "50",
+      "Type": "Mineral (Zinc Oxide)",
+      "Volume": "100ml",
+      "Water Resistant": "80 minutes",
+    },
+    reviews: [
+        { id: "r22-1", author: "BeachLover", rating: 5, comment: "Finally, a mineral sunscreen that doesn't make me look like a ghost!" }
+    ],
+    seller: "LumiBeauty"
+  },
+  {
+    id: "23",
+    name: "Artisan Roast Organic Coffee Beans",
+    description: "Start your day with the rich, aromatic flavor of our Artisan Roast Coffee Beans. Sourced from fair-trade farms in Colombia, these organic arabica beans are medium-roasted to perfection for a smooth, balanced cup.",
+    price: 499.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1559493542-a8c345339655?q=80&w=1887&auto=format=fit=crop",
+    category: "Grocery",
+    specifications: {
+      "Weight": "340g",
+      "Roast": "Medium",
+      "Origin": "Colombia",
+      "Certification": "Organic, Fair Trade",
+    },
+    reviews: [
+        { id: "r23-1", author: "CoffeeSnob", rating: 5, comment: "Absolutely delicious. Smooth, not bitter, with lovely chocolatey notes." }
+    ],
+    seller: "FreshMart"
+  },
+  {
+    id: "24",
+    name: "Organic Almond Milk",
+    description: "A creamy and delicious dairy-free alternative. Our organic almond milk is made with simple ingredients and is unsweetened, making it a versatile choice for your cereal, coffee, or smoothies.",
+    price: 249.00,
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1620189507195-68309c04c4d5?q=80&w=1887&auto=format=fit=crop",
+    category: "Grocery",
+    specifications: {
+      "Volume": "1L",
+      "Ingredients": "Filtered Water, Organic Almonds",
+      "Features": "Unsweetened, Dairy-Free, Vegan",
+      "Organic": "Yes",
+    },
+    reviews: [
+      { id: "r24-1", author: "HealthyEater", rating: 5, comment: "My go-to almond milk. Tastes clean and has no weird ingredients." },
+      { id: "r24-2", author: "SmoothieKing", rating: 4, comment: "Good for smoothies, but a little thin for my coffee." },
+    ],
+    seller: "FreshMart"
   }
 ];
 
