@@ -3,8 +3,8 @@
 import Image from "next/image";
 
 export function Banner() {
-    const bannerImage = "https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/b53f2g45435a24.jpg";
-    const fallbackBanner = "https://img.fkcdn.com/flap/1600/270/image/b53f2g45435a24.jpg";
+    const bannerImage = "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1600&auto=format&fit=crop";
+    const fallbackBanner = "https://placehold.co/1600x270.png";
 
     return (
         <Image
@@ -13,7 +13,7 @@ export function Banner() {
           width={1600}
           height={270}
           className="w-full rounded-md"
-          data-ai-hint="promotional banner"
+          data-ai-hint="shopping sale"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             if (target.src === bannerImage) {
