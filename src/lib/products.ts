@@ -70,7 +70,7 @@ const products: Product[] = [
     description: "Dominate the competition with the Gamer's Edge Mechanical Keyboard. Featuring customizable RGB lighting, ultra-responsive mechanical switches, and a durable aluminum frame. Programmable macro keys give you the ultimate advantage in any game.",
     price: 15999.00,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1598550463214-38c4a5c1e74a?q=80&w=1925&auto=format&fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/keyboard/multi-device-keyboard/8/r/v/els-wk-710-elista-original-imagrzrxhya5ycyz.jpeg?q=70",
     category: "Gaming",
     specifications: {
       "Switches": "Red Mechanical",
