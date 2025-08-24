@@ -15,13 +15,15 @@ const bannerImages = [
     { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/b8da94ea4f2b585c.jpg?q=80", alt: "Banner 2", hint: "mobile phone launch" },
     { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/8c46a61fac2731d1.jpeg?q=80", alt: "Banner 3", hint: "fashion discount" },
     { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/d360216434863a8b.jpeg?q=80", alt: "Banner 4", hint: "home appliances" },
+    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/84ae27f93c14a4e3.jpg?q=80", alt: "Banner 5", hint: "travel booking" },
+    { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/0bde3c3e8825a173.jpeg?q=80", alt: "Banner 6", hint: "grocery deals" },
 ]
 
 export function Banner() {
   return (
     <Carousel
         opts={{ loop: true }}
-        plugins={[Autoplay({ delay: 5000, stopOnInteraction: false })]}
+        plugins={[Autoplay({ delay: 3000, stopOnInteraction: false })]}
         className="w-full"
     >
       <CarouselContent>
