@@ -109,7 +109,7 @@ const products: Product[] = [
     description: "Conquer any trail with the Nomad's Trail Hiking Backpack. With a 65L capacity, adjustable torso length, and multiple compartments, it's designed for multi-day treks. The integrated rain cover and hydration reservoir compatibility make it ready for any adventure.",
     price: 22000.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1587537965646-930c2e37d59b?q=80&w=1974&auto=format&fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/rucksack/x/e/l/-original-imah2snzfbpy3s4j.jpeg?q=70",
     category: "Sports & Outdoors",
     specifications: {
       "Capacity": "65 Liters",
