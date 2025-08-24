@@ -434,7 +434,7 @@ const products: Product[] = [
     description: "Start your day with the rich, aromatic flavor of our Artisan Roast Coffee Beans. Sourced from fair-trade farms in Colombia, these organic arabica beans are medium-roasted to perfection for a smooth, balanced cup.",
     price: 499.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1559493542-a8c345339655?q=80&w=1887&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/coffee/3/z/o/50-100-arabica-instant-coffee-hot-cold-coffee-instant-coffee-original-imaheqkrfymgtqdb.jpeg?q=70",
     category: "Grocery",
     specifications: {
       "Weight": "340g",
