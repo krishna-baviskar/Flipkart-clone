@@ -262,7 +262,7 @@ const products: Product[] = [
     description: "Look sharp and feel comfortable in these modern slim-fit jeans. Made with a hint of stretch for all-day comfort and a full range of motion. A versatile addition to your casual wardrobe.",
     price: 1899.00,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1602293589914-9b299af288dc?q=80&w=1887&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/f/l/x/28-flipkart-302-coystore-original-imaheqgyym8rhvyw.jpeg?q=70",
     category: "Fashion",
     specifications: {
       "Material": "98% Cotton, 2% Elastane",
