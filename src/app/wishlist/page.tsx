@@ -14,13 +14,14 @@ import {
 import { Trash2, ShoppingCart } from "lucide-react";
 import { useCart } from "@/hooks/use-cart";
 import { useToast } from "@/hooks/use-toast";
+import type { Product } from "@/types";
 
 export default function WishlistPage() {
   const { items, removeFromWishlist } = useWishlist();
   const { addToCart } = useCart();
   const { toast } = useToast();
 
-  const handleAddToCart = (product: any) => {
+  const handleAddToCart = (product: Product) => {
     addToCart(product);
     removeFromWishlist(product.id);
     toast({
@@ -31,7 +32,7 @@ export default function WishlistPage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">My Wishlist ({items.length})</h1>
+      <h1 className="text-2xl md:text-3xl font-bold mb-6">My Wishlist ({items.length})</h1>
       {items.length === 0 ? (
         <div className="text-center py-16 border-2 border-dashed rounded-lg">
           <h2 className="text-2xl font-semibold">Your wishlist is empty</h2>
@@ -43,42 +44,43 @@ export default function WishlistPage() {
           </Button>
         </div>
       ) : (
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {items.map((product) => (
             <Card key={product.id} className="overflow-hidden flex flex-col">
               <Link href={`/product/${product.id}`} className="block">
-                <div className="relative h-48 w-full bg-white">
+                <div className="relative h-36 sm:h-48 w-full bg-white">
                     <Image
                     src={product.image}
                     alt={product.name}
                     fill
-                    className="object-contain p-4"
+                    className="object-contain p-2 sm:p-4"
                     data-ai-hint="product image"
                     />
                 </div>
               </Link>
-                <CardHeader className="p-4">
-                  <CardTitle className="text-base font-medium h-12 overflow-hidden">
+                <CardHeader className="p-2 sm:p-4">
+                  <CardTitle className="text-sm sm:text-base font-medium h-10 sm:h-12 overflow-hidden">
                     <Link href={`/product/${product.id}`} className="hover:text-primary">{product.name}</Link>
                   </CardTitle>
                 </CardHeader>
-              <CardContent className="p-4 pt-0 flex-grow">
-                <p className="text-lg font-bold">₹{product.price.toFixed(2)}</p>
+              <CardContent className="p-2 sm:p-4 pt-0 flex-grow">
+                <p className="text-base sm:text-lg font-bold">₹{product.price.toFixed(2)}</p>
                  <div className="flex items-center gap-1 mt-1">
-                    <span className="text-sm font-semibold bg-green-600 text-white px-2 py-0.5 rounded-sm">{product.rating} ★</span>
-                    <span className="text-sm text-muted-foreground">({product.reviews.length} reviews)</span>
+                    <span className="text-xs sm:text-sm font-semibold bg-green-600 text-white px-1.5 sm:px-2 py-0.5 rounded-sm">{product.rating} ★</span>
+                    <span className="text-xs sm:text-sm text-muted-foreground">({product.reviews.length} reviews)</span>
                  </div>
               </CardContent>
-              <CardFooter className="p-2 border-t flex gap-2">
+              <CardFooter className="p-2 border-t flex-col sm:flex-row items-stretch sm:items-center flex gap-2">
                 <Button variant="outline" size="sm" className="w-full" onClick={() => handleAddToCart(product)}>
                     <ShoppingCart className="mr-2 h-4 w-4"/>
-                    Move to Cart
+                    <span className="hidden sm:inline">Move to Cart</span>
+                    <span className="sm:hidden">Move</span>
                 </Button>
                 <Button
                     variant="ghost"
                     size="icon"
                     onClick={() => removeFromWishlist(product.id)}
-                    className="text-muted-foreground hover:text-destructive"
+                    className="text-muted-foreground hover:text-destructive self-center sm:self-auto"
                 >
                     <Trash2 className="h-5 w-5" />
                     <span className="sr-only">Remove item</span>

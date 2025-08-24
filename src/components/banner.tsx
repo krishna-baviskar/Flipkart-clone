@@ -31,13 +31,14 @@ export function Banner() {
       <CarouselContent>
         {bannerImages.map((banner, index) => (
           <CarouselItem key={index}>
-            <div className="relative h-[270px] w-full">
+            <div className="relative h-28 sm:h-40 md:h-[270px] w-full">
               <Image
                 src={banner.src}
                 alt={banner.alt}
                 fill
                 className="w-full rounded-md object-cover"
                 data-ai-hint={banner.hint}
+                sizes="(max-width: 768px) 100vw, 1620px"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.src = `https://placehold.co/1620x270.png`;
@@ -47,8 +48,8 @@ export function Banner() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 text-white bg-black/30 hover:bg-black/50" />
-      <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 text-white bg-black/30 hover:bg-black/50" />
+      <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 text-white bg-black/30 hover:bg-black/50 h-8 w-8 sm:left-4" />
+      <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 text-white bg-black/30 hover:bg-black/50 h-8 w-8 sm:right-4" />
     </Carousel>
   );
 }

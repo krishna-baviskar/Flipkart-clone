@@ -64,8 +64,8 @@ export function ProductList({ products, title = "Deals of the Day" }: ProductLis
   return (
     <Card>
       <CardHeader className="flex flex-row items-center justify-between">
-        <CardTitle>{title}</CardTitle>
-        <Button variant="default">
+        <CardTitle className="text-xl md:text-2xl">{title}</CardTitle>
+        <Button variant="default" size="sm">
           View All
           <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
@@ -75,21 +75,21 @@ export function ProductList({ products, title = "Deals of the Day" }: ProductLis
           <Carousel
             opts={{
               align: "start",
-              loop: true,
+              loop: false,
             }}
             className="w-full"
           >
             <CarouselContent>
               {filteredAndSortedProducts.map((product) => (
-                <CarouselItem key={product.id} className="md:basis-1/3 lg:basis-1/5">
+                <CarouselItem key={product.id} className="basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5">
                    <div className="p-1 h-full">
                     <ProductCard product={product} />
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2" />
-            <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2" />
+            <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 hidden sm:flex" />
+            <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 hidden sm:flex" />
           </Carousel>
         ) : (
           <div className="text-center py-16">

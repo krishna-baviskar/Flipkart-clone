@@ -59,7 +59,7 @@ export default function CartPage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Shopping Cart</h1>
+      <h1 className="text-2xl md:text-3xl font-bold mb-6">Shopping Cart</h1>
       {items.length === 0 ? (
         <div className="text-center py-16 border-2 border-dashed rounded-lg">
           <h2 className="text-2xl font-semibold">Your cart is empty</h2>
@@ -76,7 +76,7 @@ export default function CartPage() {
             {items.map(({ product, quantity }) => (
               <Card key={product.id} className="overflow-hidden">
                 <div className="flex items-center">
-                  <div className="relative h-24 w-24 flex-shrink-0">
+                  <div className="relative h-20 w-20 md:h-24 md:w-24 flex-shrink-0">
                     <Image
                       src={product.image}
                       alt={product.name}
@@ -85,13 +85,13 @@ export default function CartPage() {
                       data-ai-hint="product image"
                     />
                   </div>
-                  <div className="p-4 flex-grow">
-                    <Link href={`/product/${product.id}`} className="font-semibold hover:text-primary">{product.name}</Link>
-                    <p className="text-sm text-muted-foreground">
+                  <div className="p-2 md:p-4 flex-grow">
+                    <Link href={`/product/${product.id}`} className="font-semibold text-sm md:text-base hover:text-primary">{product.name}</Link>
+                    <p className="text-xs md:text-sm text-muted-foreground">
                       ₹{product.price.toFixed(2)}
                     </p>
                   </div>
-                  <div className="p-4 flex items-center gap-4">
+                  <div className="p-2 md:p-4 flex items-center gap-2 md:gap-4">
                     <Input
                       type="number"
                       min="1"
@@ -99,7 +99,7 @@ export default function CartPage() {
                       onChange={(e) =>
                         updateQuantity(product.id, parseInt(e.target.value))
                       }
-                      className="w-20 text-center"
+                      className="w-16 md:w-20 text-center h-8 md:h-10"
                     />
                     <Button
                       variant="ghost"

@@ -20,7 +20,7 @@ export default function OrdersPage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">My Orders</h1>
+      <h1 className="text-2xl md:text-3xl font-bold mb-6">My Orders</h1>
       {orders.length === 0 ? (
         <div className="text-center py-16 border-2 border-dashed rounded-lg">
           <h2 className="text-2xl font-semibold">You have no orders yet</h2>
@@ -35,38 +35,38 @@ export default function OrdersPage() {
         <div className="space-y-6">
           {orders.map((order) => (
             <Card key={order.id}>
-              <CardHeader className="flex flex-row justify-between items-start">
+              <CardHeader className="flex flex-col sm:flex-row justify-between items-start sm:items-center p-4 sm:p-6">
                 <div>
-                  <CardTitle>Order #{order.id.slice(0, 8)}</CardTitle>
+                  <CardTitle className="text-lg">Order #{order.id.slice(0, 8)}</CardTitle>
                   <CardDescription>
                     Placed on {new Date(order.date).toLocaleDateString()}
                   </CardDescription>
                 </div>
-                <Badge variant={order.status === 'Delivered' ? "default" : "secondary"}>{order.status}</Badge>
+                <Badge variant={order.status === 'Delivered' ? "default" : "secondary"} className="mt-2 sm:mt-0">{order.status}</Badge>
               </CardHeader>
-              <CardContent>
+              <CardContent className="p-4 sm:p-6">
                 <div className="space-y-4">
                   {order.items.map(item => (
                     <div key={item.product.id} className="flex items-center gap-4">
-                        <div className="relative h-16 w-16 rounded-md overflow-hidden border">
+                        <div className="relative h-16 w-16 rounded-md overflow-hidden border flex-shrink-0">
                             <Image src={item.product.image} alt={item.product.name} fill className="object-cover" />
                         </div>
                         <div className="flex-grow">
-                            <p className="font-semibold">{item.product.name}</p>
+                            <p className="font-semibold text-sm sm:text-base">{item.product.name}</p>
                             <p className="text-sm text-muted-foreground">Qty: {item.quantity}</p>
                         </div>
-                        <p className="font-medium">₹{(item.product.price * item.quantity).toFixed(2)}</p>
+                        <p className="font-medium text-sm sm:text-base">₹{(item.product.price * item.quantity).toFixed(2)}</p>
                     </div>
                   ))}
                 </div>
               </CardContent>
-              <CardFooter className="flex justify-end gap-6 bg-muted/50 p-4">
-                <div className="text-right">
+              <CardFooter className="flex flex-col sm:flex-row justify-end items-stretch sm:items-center gap-4 bg-muted/50 p-4">
+                <div className="text-right flex-grow">
                     <p className="text-sm text-muted-foreground">Total</p>
                     <p className="text-lg font-bold">₹{order.total.toFixed(2)}</p>
                 </div>
-                <Separator orientation="vertical" className="h-10" />
-                <Button variant="outline">View Order Details</Button>
+                <Separator orientation="vertical" className="h-10 hidden sm:block" />
+                <Button variant="outline" className="w-full sm:w-auto">View Order Details</Button>
               </CardFooter>
             </Card>
           ))}
