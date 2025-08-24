@@ -301,7 +301,7 @@ const products: Product[] = [
     description: "A novel by Matt Haig, The Midnight Library is a captivating story about life, death, and the choices we make. It's a heartwarming and thought-provoking read that will stay with you long after you finish.",
     price: 349.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1543002588-b9b6562934c2?q=80&w=1974&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/regionalbooks/m/6/a/the-midnight-library-original-imahatj9yhdy9vg4.jpeg?q=70",
     category: "Books",
     specifications: {
       "Author": "Matt Haig",
