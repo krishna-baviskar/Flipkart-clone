@@ -9,50 +9,47 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <title>Flipkart</title>
       <g>
+        <title>Flipkart</title>
         <path
           d="M11.7 29H4.3A4.3 4.3 0 0 1 0 24.7V11.3A4.3 4.3 0 0 1 4.3 7h7.4a4.3 4.3 0 0 1 4.3 4.3v13.4a4.3 4.3 0 0 1-4.3 4.3z"
           fill="#2874f0"
         ></path>
         <text
           transform="translate(23 8)"
-          fill="#2874F0"
+          fill="#fff"
           fontFamily="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
-          fontSize="24"
+          fontSize="20"
           fontWeight="700"
-          letterSpacing=".2"
         >
-          <tspan x="0" y="21">Flipkart</tspan>
+          <tspan x="0" y="19">Flipkart</tspan>
         </text>
         <text
           transform="translate(23 8)"
-          fill="#9E9E9E"
+          fill="#FFE500"
           fontFamily="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
-          fontSize="12"
+          fontSize="11"
           fontStyle="italic"
           fontWeight="500"
-          letterSpacing=".2"
         >
-          <tspan x="70" y="21">Explore</tspan>
+          <tspan x="0" y="30">Explore</tspan>
+          <tspan fill="#fff" fontWeight="700"> Plus</tspan>
+          <tspan fill="#FFE500" fontWeight="700">
+            <svg
+              x="70"
+              y="-4"
+              width="10"
+              height="10"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.528 11.216l2.08 4.656h-1.6l-1.44-3.36-2.96 3.36h-1.6l4-4.48-3.2-3.84h1.6l2.48 3.072 2-3.072h1.6l-3.84 4.656z"
+                fill="#FFE500"
+              ></path>
+            </svg>
+          </tspan>
         </text>
-        <text
-          transform="translate(23 8)"
-          fill="#F9A825"
-          fontFamily="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
-          fontSize="12"
-          fontStyle="italic"
-          fontWeight="700"
-          letterSpacing=".2"
-        >
-          <tspan x="110" y="21">Plus</tspan>
-        </text>
-        <g>
-            <path d="M60.5 22.5h-2a2.5 2.5 0 0 0-2.5 2.5v1a2.5 2.5 0 0 0 2.5 2.5h2a2.5 2.5 0 0 0 2.5-2.5v-1a2.5 2.5 0 0 0-2.5-2.5z" fill="#2874F0"></path>
-            <path d="M60.5 20.5h-2a2.5 2.5 0 0 0-2.5 2.5v1h7v-1a2.5 2.5 0 0 0-2.5-2.5z" fill="#F9A825"></path>
-            <path d="M58.5 25.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5z" fill="#FFF"></path>
-        </g>
-        <path d="M130 30h-2.5v-2.5H125v-2.5h2.5V22.5h2.5v2.5H130z" fill="#f9a825"></path>
       </g>
     </svg>
   );

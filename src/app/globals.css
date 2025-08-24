@@ -4,26 +4,35 @@
 
 @layer base {
   :root {
-    --background: 220 17% 95%;
+    --background: 24 20% 98%; /* Very light orange */
     --foreground: 24 9.8% 10%;
+    
     --card: 0 0% 100%;
     --card-foreground: 24 9.8% 10%;
+
     --popover: 0 0% 100%;
     --popover-foreground: 24 9.8% 10%;
-    --primary: 221 87% 55%;
+    
+    --primary: 221 83% 53%; /* Strong blue for flipkart */
     --primary-foreground: 0 0% 100%;
-    --secondary: 220 17% 90%;
+
+    --secondary: 24 20% 92%;
     --secondary-foreground: 24 9.8% 10%;
-    --muted: 220 17% 90%;
+
+    --muted: 24 20% 92%;
     --muted-foreground: 24 5.9% 45.1%;
-    --accent: 45 100% 50%;
-    --accent-foreground: 24 9.8% 10%;
+
+    --accent: 14 100% 60%; /* Red-orange for accents */
+    --accent-foreground: 0 0% 100%;
+    
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 220 17% 85%;
+
+    --border: 24 20% 85%;
     --input: 0 0% 100%;
-    --ring: 221 87% 55%;
-    --radius: 0.25rem;
+    --ring: 221 83% 53%;
+    --radius: 0.5rem;
+
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
@@ -33,24 +42,33 @@
 
   .dark {
     --background: 24 9.8% 10%;
-    --foreground: 220 17% 95%;
+    --foreground: 24 20% 98%;
+    
     --card: 24 9.8% 10%;
-    --card-foreground: 220 17% 95%;
+    --card-foreground: 24 20% 98%;
+
     --popover: 24 9.8% 10%;
-    --popover-foreground: 220 17% 95%;
-    --primary: 221 87% 55%;
+    --popover-foreground: 24 20% 98%;
+    
+    --primary: 221 83% 53%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 220 17% 15%;
-    --secondary-foreground: 220 17% 95%;
-    --muted: 220 17% 15%;
-    --muted-foreground: 220 17% 63%;
-    --accent: 45 100% 50%;
-    --accent-foreground: 24 9.8% 10%;
+    
+    --secondary: 24 20% 15%;
+    --secondary-foreground: 24 20% 98%;
+
+    --muted: 24 20% 15%;
+    --muted-foreground: 24 20% 63%;
+    
+    --accent: 14 100% 60%;
+    --accent-foreground: 0 0% 100%;
+    
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 220 17% 15%;
-    --input: 220 17% 15%;
-    --ring: 221 87% 55%;
+
+    --border: 24 20% 15%;
+    --input: 24 20% 15%;
+    --ring: 221 83% 53%;
+
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -65,5 +83,6 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
   }
 }
