@@ -12,6 +12,7 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { AddToCartButton } from "@/components/add-to-cart-button";
 import { AiSummary } from "@/components/ai-summary";
+import { WishlistButton } from "@/components/wishlist-button";
 
 interface ProductPageProps {
   params: {
@@ -61,8 +62,9 @@ export default function ProductPage({ params }: ProductPageProps) {
           
           <AiSummary productDetails={product.description} />
 
-          <div className="mt-4">
+          <div className="mt-4 flex items-center gap-4">
             <AddToCartButton product={product} showText={true} />
+            <WishlistButton product={product} />
           </div>
         </div>
       </div>

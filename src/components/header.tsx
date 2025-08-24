@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Search, ShoppingCart, User, MoreVertical, Store, ChevronDown } from "lucide-react";
+import { Search, ShoppingCart, User, MoreVertical, Store, ChevronDown, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/hooks/use-cart";
 import { Logo } from "./logo";
@@ -11,10 +11,13 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
+  DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu"
+import { useWishlist } from "@/hooks/use-wishlist";
 
 export function Header() {
   const { items } = useCart();
+  const { items: wishlistItems } = useWishlist();
   const cartItemCount = items.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
@@ -56,8 +59,14 @@ export function Header() {
                 <DropdownMenuItem asChild>
                     <Link href="/login">My Profile</Link>
                 </DropdownMenuItem>
+                 <DropdownMenuSeparator />
+                <DropdownMenuItem asChild>
+                  <Link href="/wishlist">
+                    <Heart className="mr-2 h-4 w-4" />
+                    Wishlist
+                  </Link>
+                </DropdownMenuItem>
                 <DropdownMenuItem>Orders</DropdownMenuItem>
-                <DropdownMenuItem>Wishlist</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 

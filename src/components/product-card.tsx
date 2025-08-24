@@ -5,6 +5,7 @@ import {
   Card,
   CardContent,
 } from "@/components/ui/card";
+import { WishlistButton } from "./wishlist-button";
 
 interface ProductCardProps {
   product: Product;
@@ -12,7 +13,10 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   return (
-    <Card className="flex flex-col overflow-hidden h-full transition-shadow duration-300 hover:shadow-lg rounded-md">
+    <Card className="flex flex-col overflow-hidden h-full transition-shadow duration-300 hover:shadow-lg rounded-md relative group">
+       <div className="absolute top-2 right-2 z-10 opacity-0 group-hover:opacity-100 transition-opacity">
+        <WishlistButton product={product} />
+      </div>
         <Link href={`/product/${product.id}`} className="block text-center p-4 bg-white">
           <div className="relative h-40 w-full">
             <Image
