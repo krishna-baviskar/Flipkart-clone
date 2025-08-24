@@ -160,6 +160,83 @@ const products: Product[] = [
     ],
     seller: "ZenFlow",
   },
+  {
+    id: "9",
+    name: "StellarFit Smartwatch 5",
+    description: "Track your fitness, stay connected, and monitor your health with the StellarFit Smartwatch 5. Featuring a vibrant AMOLED display, advanced health sensors, and a long-lasting battery.",
+    price: 24999.00,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1964&auto=format&fit=crop",
+    category: "Electronics",
+    specifications: {
+      "Display": "1.4\" Super AMOLED",
+      "Sensors": "Heart Rate, SpO2, ECG, GPS",
+      "Battery Life": "Up to 3 days",
+      "Water Resistance": "5ATM",
+    },
+    reviews: [
+      { id: "r9-1", author: "Leo M.", rating: 5, comment: "Amazing watch! The health tracking is top-notch and it looks great." },
+    ],
+    seller: "StellarTech",
+  },
+  {
+    id: "10",
+    name: "SkyExplorer Drone",
+    description: "Capture breathtaking aerial shots with the SkyExplorer Drone. Equipped with a 4K camera, 3-axis gimbal, and intelligent flight modes. It's foldable, portable, and easy for beginners to fly.",
+    price: 45999.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1507582020474-9a3304a711e3?q=80&w=2070&auto=format=fit=crop",
+    category: "Electronics",
+    specifications: {
+      "Camera": "4K UHD @ 30fps",
+      "Flight Time": "30 minutes",
+      "Range": "5 km",
+      "Weight": "570g",
+    },
+    reviews: [
+      { id: "r10-1", author: "Nina R.", rating: 5, comment: "The video quality is stunning. So stable and easy to control." },
+    ],
+    seller: "AeroVision",
+  },
+  {
+    id: "11",
+    name: "FusionBlend Blender",
+    description: "Unleash your culinary creativity with the FusionBlend Blender. Its powerful 1500W motor can handle anything from smoothies and soups to nut butters. Features multiple pre-programmed settings for perfect results every time.",
+    price: 18999.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1565001475723-644934273295?q=80&w=1962&auto=format&fit=crop",
+    category: "Appliances",
+    specifications: {
+      "Power": "1500W",
+      "Capacity": "2L BPA-Free Jar",
+      "Speeds": "10-speed variable control",
+      "Programs": "Smoothie, Soup, Ice Crush",
+    },
+    reviews: [
+      { id: "r11-1", author: "Sam T.", rating: 5, comment: "This blender is a beast! It makes the smoothest smoothies I've ever had." },
+    ],
+    seller: "KitchenPro",
+  },
+  {
+    id: "12",
+    name: "GlowUp Skincare Set",
+    description: "Achieve radiant skin with the GlowUp Skincare Set. This curated collection includes a gentle cleanser, a hydrating serum, and a nourishing moisturizer, all made with natural, cruelty-free ingredients.",
+    price: 4999.00,
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1887&auto=format=fit=crop",
+    category: "Beauty",
+    specifications: {
+      "Includes": "Cleanser, Serum, Moisturizer",
+      "Key Ingredients": "Hyaluronic Acid, Vitamin C, Green Tea",
+      "Skin Type": "All",
+      "Cruelty-Free": "Yes",
+    },
+    reviews: [
+      { id: "r12-1", author: "Chloe B.", rating: 5, comment: "My skin has never felt so soft and looked so bright. Highly recommend!" },
+      { id: "r12-2", author: "Mark F.", rating: 4, comment: "Good products, but the moisturizer is a bit light for my very dry skin." },
+    ],
+    seller: "LumiBeauty",
+  },
 ];
 
 export function getProducts(): Product[] {
