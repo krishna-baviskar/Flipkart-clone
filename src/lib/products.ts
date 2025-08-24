@@ -739,7 +739,7 @@ const products: Product[] = [
     description: "The Pixel 8a is a powerful and affordable smartphone from Google, featuring an amazing camera, a vibrant display, and all-day battery life. It's the smart choice for smart photos and helpful features.",
     price: 45999.00,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1695664593593-92a3b46c6444?q=80&w=1964&auto=format=fit=crop",
+    image: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/s/8/d/pixel-8a-ga04988-in-google-original-imahyn3mskjbwphw.jpeg?q=70",
     category: "Mobiles",
     specifications: {
       "Display": "6.1-inch Actua display",
