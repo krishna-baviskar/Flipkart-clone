@@ -9,6 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
+import * as React from "react";
 
 const bannerImages = [
     { src: "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/e5117445d2fc66ca.jpeg?q=80", alt: "Banner 1", hint: "electronics sale" },
@@ -22,11 +23,16 @@ const bannerImages = [
 ]
 
 export function Banner() {
+  const plugin = React.useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: false })
+  );
   return (
     <Carousel
         opts={{ loop: true }}
-        plugins={[Autoplay({ delay: 3000, stopOnInteraction: false })]}
+        plugins={[plugin.current]}
         className="w-full"
+        onMouseEnter={plugin.current.stop}
+        onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
         {bannerImages.map((banner, index) => (
