@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const categories = [
+ const categories = [
   { name: "Grocery", image: "https://rukminim1.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png" },
   { name: "Mobiles", image: "https://rukminim1.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png" },
   { name: "Fashion", image: "https://rukminim1.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png" },
