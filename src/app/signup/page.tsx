@@ -102,7 +102,7 @@ export default function SignupPage() {
                       <Input type="password" placeholder="••••••••" {...field} />
                     </FormControl>
                     <FormMessage />
-                  </Ite
+                  </FormItem>
                 )}
               />
               <Button type="submit" className="w-full">
