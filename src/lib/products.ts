@@ -3,7 +3,7 @@ import type { Product } from "@/types";
 const products: Product[] = [
   {
     id: "1",
-    name: "QuantumCore Laptop Pro",
+    name: "Lenovo LOQ Laptop Pro",
     description: "Experience unparalleled performance with the QuantumCore Laptop Pro. Featuring the latest generation processor, a stunning 4K display, and a sleek, lightweight design, it's the perfect tool for professionals and creatives alike. With all-day battery life, you can work from anywhere without compromise.",
     price: 94990.00,
     rating: 4.8,
