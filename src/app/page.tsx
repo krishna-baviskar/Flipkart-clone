@@ -4,6 +4,13 @@ import type { Product } from "@/types";
 import { CategoryNav } from "@/components/category-nav";
 import { Banner } from "@/components/banner";
 import { SecondaryBanner } from "@/components/secondary-banner";
+import { Suspense } from "react";
+import { Skeleton } from "@/components/ui/skeleton";
+
+function ProductListSkeleton() {
+  return <Skeleton className="h-[350px] w-full" />;
+}
+
 
 export default function Home() {
   const products: Product[] = getProducts();
@@ -26,20 +33,46 @@ export default function Home() {
         <Banner />
       </div>
       <div className="container mx-auto px-4 space-y-8">
-        <ProductList products={products} title="Deals of the Day"/>
-        <ProductList products={electronics} title="Best of Electronics" />
-        <ProductList products={mobiles} title="Mobiles & Accessories" />
-        <ProductList products={gaming} title="Top Picks in Gaming" />
-        <ProductList products={appliances} title="TVs & Appliances" />
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={products} title="Deals of the Day"/>
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={electronics} title="Best of Electronics" />
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={mobiles} title="Mobiles & Accessories" />
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={gaming} title="Top Picks in Gaming" />
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={appliances} title="TVs & Appliances" />
+        </Suspense>
         <SecondaryBanner />
-        <ProductList products={home} title="Top Picks for Your Home" />
-        <ProductList products={fashion} title="Top Fashion Picks" />
-        <ProductList products={beauty} title="Beauty, Food, Toys & more" />
-        <ProductList products={grocery} title="Top Picks in Grocery" />
-        <ProductList products={fitness} title="Sports & Fitness" />
-        <ProductList products={books} title="Bestselling Books" />
-        <ProductList products={topPicks} title="Top Picks" />
-        <ProductList products={[...products].reverse()} title="Recommended for You" />
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={home} title="Top Picks for Your Home" />
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={fashion} title="Top Fashion Picks" />
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={beauty} title="Beauty, Food, Toys & more" />
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={grocery} title="Top Picks in Grocery" />
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={fitness} title="Sports & Fitness" />
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={books} title="Bestselling Books" />
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={topPicks} title="Top Picks" />
+        </Suspense>
+        <Suspense fallback={<ProductListSkeleton />}>
+          <ProductList products={[...products].reverse()} title="Recommended for You" />
+        </Suspense>
       </div>
     </div>
   );
