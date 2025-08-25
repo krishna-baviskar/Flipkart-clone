@@ -1,6 +1,6 @@
 # Flipkart Clone by Krishna Baviskar
 
-This is a modern e-commerce platform built with Next.js, TypeScript, and Tailwind CSS, replicating the core features and design of Flipkart. The project showcases a responsive user interface, state management for cart and wishlist, and integration with AI for product summaries.
+~This is a modern e-commerce platform built with Next.js, TypeScript, and Tailwind CSS, replicating the core features and design of Flipkart. The project showcases a responsive user interface, state management for cart and wishlist, and integration with AI for product summaries.
 
 ## Tech Stack
 
