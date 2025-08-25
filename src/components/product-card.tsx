@@ -8,7 +8,7 @@ import {
 import { WishlistButton } from "./wishlist-button";
 
 interface ProductCardProps {
-  product: Product;
+   product: Product;
 }
 
 export function ProductCard({ product }: ProductCardProps) {
