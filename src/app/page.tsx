@@ -28,7 +28,7 @@ export default function Home() {
   
   return (
     <div className="space-y-4">
-      <CategoryNav />
+       <CategoryNav />
       <div className="container mx-auto px-4">
         <Banner />
       </div>
