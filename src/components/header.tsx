@@ -1,4 +1,4 @@
-"use client";
+ "use client";
 
 import Link from "next/link";
 import { Search, ShoppingCart, User, MoreVertical, Store, ChevronDown, Heart, Package } from "lucide-react";
