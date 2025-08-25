@@ -12,7 +12,7 @@ import { OrderProvider } from "@/context/order-provider";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Flipcart-explorer",
+   title: "Flipcart-explorer",
   description: "A modern e-commerce platform.",
 };
 
