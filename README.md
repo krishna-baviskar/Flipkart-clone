@@ -11,7 +11,7 @@
 - **AI Integration**: [Genkit](https://firebase.google.com/docs/genkit)
 - **Icons**: [Lucide React](https://lucide.dev/guide/packages/lucide-react)
 - **Form Management**: [React Hook Form](https://react-hook-form.com/)
-- **State Management**: React Context API
+- **State Management**: React Context API 
 
 ## Features
 
